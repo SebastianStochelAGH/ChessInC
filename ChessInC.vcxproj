@@ -123,10 +123,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="board.h" />
+    <ClInclude Include="input.h" />
+    <ClInclude Include="rules.h" />
     <ClInclude Include="types.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="board.c" />
+    <ClCompile Include="input.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="rules.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
